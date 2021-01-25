@@ -1,226 +1,217 @@
-*{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;800&family=Special+Elite&display=swap');
+
+body {
+    margin:0;
     padding: 0;
-
-}
-.bir {
-    background: url(../img/bg.jpeg)center/cover no-repeat;
-    height: 1100px;
-    background-attachment: fixed;
-    
-}
-.bir ul{
-    background: #fff;
-    width: 100%;
-    height: 6vh;
-    padding-left: 70%;
-    padding-top: 2%;
-}
-
-
-.bir li{
-    display: inline;
-    font-size: 20px;  
-    font-family: 'Special Elite', cursive;  
-}
-.bir a{
-    text-decoration: none;
-     color: black;
-     padding-left:2% ;
-}
-.bir p{
-    
-    font-size: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-top: 20%;
-}
-.bir h2{
-    font-size: 100px;
-    color: white;
-    font-family: 'Exo', sans-serif;
-    margin-left: 15%;
-    margin-top: -8%;
-    background-attachment: fixed;
-}
-.iki {
-    background: url(../img/beans_icon.png)center/cover no-repeat;
-    height: 20vh;
-    width: 100%;
-}
-.iki h1{
-    font-size: 50px;
-    padding-top: 3%;
     font-family: 'Special Elite', cursive;
-    margin-left: 7%;
-    margin-bottom: 2%;
 }
 
-.iki p{
-    font-size: 20px;
-    font-family: 'Special Elite', cursive;
-    text-align: left;
-    margin-left: 7%;
-    margin-bottom: 1%;
-}
-.uc {
-    background: url(../img/bridge_1.jpg)center/cover no-repeat;
-    width: 100%;
-    height: 25vh;
-    background-attachment: fixed;
-}
-.uc h1{
-    padding-top: 20%;
-    text-align: center;
-    font-size: 40px;
-}
-.uc img{
-    height: 10vh;
-    width: 10vh;
-    
-    margin-top: 1%;
-}
-.uc li{
-    text-align: center;
-}
-.uc li:nth-of-type(1){
-    font-size: 15px;
-    
-}
-.uc li:nth-of-type(2){
-    text-align: center;
-    font-size: 25px;
-}
-.uc li:nth-of-type(){
-    font-size: 10px;
-    text-align: center;
-}
-.uc li:nth-of-type(n+4){
-     font-size: 40px;
-     border: 2px solid black;
-}
-.dort {
-    background: url(../img/bridge_2.jpg) center/cover no-repeat;
-    height: 30vh;
-    width: 100%;
-    background-attachment: fixed;
-    margin-top: 30%;
-}
-.dort h1{
-    padding-top: 20%;
-    margin-bottom: 3%;
-    margin-left: 10%;
-    font-size: 40px;
-}
-.dort p{
-    font-size: 25px;
-    margin-left: 10%;
-}
-.dort img{
-    height: 30vh;
-    width: 45vh;
-    margin-left: 45%;
-    margin-top: -15%;
-    margin-bottom: 10%;
+nav ul {
+    text-align: right;
+    list-style: none;
+    margin:2rem;
 }
 
-
-.bis {
-    background: url(../img/bridge_3.jpg)center/cover no-repeat;
-    background-attachment: fixed;
-    height: 20vh;
-    width: 100%;
-    margin-top: 45%;
+nav li {
+    display: inline-block;
+    margin-right:1rem;
 }
-.alte {
-    background:url(../img/pie_icon.png)center/cover no-repeat ;
-    width: 100%;
-    height: 100vh;
-}
-.alte h1{
-    font-size: 50px;
-    padding-left: 48%;
-    padding-top: 10%;
-    
-}
-.alte p{
-    font-size: 35px;
-    padding-top: 2%;
-    padding-left: 48%;
-    font-family: 'Special Elite', cursive;    
-}
-
-.alte a{
-    font-size: 25px;
+nav a {
     text-decoration: none;
-    margin-left: 48%;
-    color: black;
-    border: 2px solid black;
-    margin-top: 10%;
-    padding: 0.5%;
-    font-family: 'Special Elite', cursive; 
+    color: #000;
 }
-.alte img{
-    height: 25vh;
-    width: 40vh;
-    margin-left: 15%;
-    margin-top:-14% ;
-}
-.yide {
-    background: url(../img/bridge_4.jpeg) center/cover no-repeat;
-    width: 100%;
-    height: 30vh;
-    background-attachment: fixed;
 
+.headings {
+    font-family: 'Exo', sans-serif; 
 }
-.sekiz {background: url(../img/muffin_icon.png)center/cover no-repeat;
-    width: 100%;
-    height: 60vh;
+
+#hero {
+height: 80vh;
+background-image: url(../img/bg.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment:fixed;
 }
-.sekiz img{
-    height: 30vh;
-    width: 40vh;
-    margin-left: 28%;
-    margin-top: -15%;
+
+#hero img {
+    width:50%;
+    margin:15% auto 3% 0;
 }
-.sekiz h1{
-    font-size: 35px;
-    margin-left: 60%;
-    padding-top: 10%;
-    margin-bottom: 1%;
+
+ .hello {
+    background-image: url(../img/beans_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:0;
+    
+} 
+.hello article {
+    padding:4rem 65% 4rem 4rem; 
 }
-.sekiz p{
-    font-size:30px ;
-    padding-left: 60%;
-    font-family: 'Special Elite', cursive; 
+
+.hello h2 {
+    margin:0;
+} 
+
+.hello .picture-static {
+    background-image: url(../img/bridge_1.jpg);
 }
-.sekiz a{margin-left: 8%;
-    font-size: 18px;
+.picture-static {
+    
+    background-position:center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+    background-attachment:fixed;
+    height:40vh;
+}
+
+
+.menu {
+    text-align: center;
+    background-image: url(../img/cake_icon.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.menu article {
+    padding-bottom:6vh;
+}
+
+.menu img {
+    width:5%;   
+}
+
+.menu a{
+text-decoration: none;
+color:black;
+font-size: .8rem;
+}
+
+.menu h2 {
+    margin:0;
+    padding:1%
+}
+
+.border {
+    border: 1px solid black;
+    padding:1rem;
+    margin:1% 30%;
+}
+
+.menu .picture-static {
+    background-image: url(../img/bridge_2.jpg);
+}
+
+.story {
+    width:100%;
+    background-image: url(../img/paper.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 60% 18%;
+}
+
+.story article {
+    width:20%;
+    margin:10vh auto 10vh 18%;
+    line-height: 1rem;
+}
+
+.story p {
+    line-height: 1.6rem;
+}
+
+.story .picture-static {
+    background-image: url(../img/bridge_3.jpg);
+}
+.catering .picture-static {
+    background-image: url(../img/bridge_4.jpeg);
+}
+
+.catering {
+    width:100%;
+    background-image: url(../img/pie_icon.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top right;
+}
+
+.catering div:first-of-type {
+    margin: 10vh auto 10vh 20%;
+    display: inline-block;
+    width:30%;
+}
+.catering img {
+    width:78%;
+}
+
+.catering article {
+    /* margin: 10vh auto 10vh 10%; */
+    display: inline-block;
+    width:16%;
+    margin-top:10vh; 
+}
+
+.button {
     text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    padding: 0.7%;
-    font-family: 'Special Elite', cursive; 
+    color:black;
+    border: solid 1px black;
+    padding:.2rem;
 }
-.dukuz {
+
+.cakes {
+    width:100%;
+    background-image: url(../img/muffin_icon.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top left;
+}
+
+.cakes div:first-of-type {
+    margin: 10vh auto 10vh 20%;
+    display: inline-block;
+    width:30%;
+}
+.cakes img {
+    width:78%;
+}
+.cakes article {
+    /* margin: 10vh auto 10vh 10%; */
+    display: inline-block;
+    width:24%;
+    margin-top:10vh; 
+    padding-bottom: 10rem;
+}
+
+footer {
     background: black;
-    width: 100%;
-    height: 30vh;
-}
-.dukuz h1{
-    color: white;
+    color:white;
+    padding-top:5vh;
+    margin:0;
     text-align: center;
-    font-size: 40px;
-    padding-top: 3%;
-    font-family: 'Special Elite', cursive;
-    padding-bottom: 1%;
-}
-.dukuz p{
-    font-size: 35px;
-    text-align: center;
-    color: white;
-    font-family: 'Special Elite', cursive;
-
 }
 
+footer ul {
+    margin:0;
+    list-style: none;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 1.8rem;
+    line-height: .1rem;
+}
+
+footer img {
+    width:2%;
+}
+
+#today {
+    width:6%;
+}
 
